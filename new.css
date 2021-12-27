@@ -1,0 +1,222 @@
+
+body{
+    background-image: url('css test.png');
+    background-repeat: no-repeat;
+  
+}
+
+#circleSun{
+    margin-left: -102px;
+    margin-top: -101px;
+     height: 174px;
+  width: 177px;
+  border-radius: 60%;
+  display: inline-block;
+   background-image: linear-gradient(to right, black , #60A2CF);
+   position: fixed;
+}
+#triangle {
+  width: 0;
+  height: 0;
+  border: 210px solid transparent;
+  border-top: 0;
+  border-bottom: 229px solid rgb(4, 38, 56);
+  margin-left: 182px;
+  margin-top: 27px;
+ position: fixed;
+ }
+
+#rectangle{
+  height: 249px;
+  width: 349px;
+ background-image: linear-gradient(to bottom right, black , #60A2CF);
+  margin-bottom: 3px;
+  margin-top: 255px;
+  margin-left: 217px;
+  position: fixed;
+ }
+
+#circleWindows{
+  height: 58px;
+  width: 58px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-top: 132px;
+  margin-left: 363px;
+  position: fixed;
+}
+#rectangleWindowRoof{
+    background-color: black;
+    height: 58px;
+    width: 0.8px;
+    border-radius: 5px;
+    margin-top: 132px;
+    margin-left: 392px;
+    position: fixed;
+}
+#horn{
+
+    margin-top: 65px;
+    margin-left: 482px;
+    width: 40px;
+    height: 120px;
+    background-color:rgb(4, 38, 56);
+    position: fixed;
+}
+#roofHorn{
+    margin-top: 50px;
+    margin-left: 472px;
+    width: 59px;
+    height: 15.5px;
+    background-image: linear-gradient(rgb(4, 38, 56),rgb(2, 12, 17));
+   position: fixed;
+}
+#squareWindow1{
+    background-color: gray;
+    margin-top: 304px;
+    margin-left: 241.5px;
+    width: 100px;
+    height: 78px;
+    position: fixed;
+}
+#rectangleWindow1{
+    background-color: black;
+    height: 79px;
+    width: 0.7px;
+    border-radius: 5px;
+    margin-top: 304px;
+    margin-left: 291px;
+    position: fixed;
+}
+#squareWindow2{
+     background-color: gray;
+    margin-top: 304px;
+    margin-left: 436px;
+    width: 100px;
+    height: 78px;
+    position: fixed;
+}
+#rectangle2Window2{
+   background-color: black;
+    height: 79.5px;
+    width: 0.8px;
+    margin-top: 303px;
+    margin-left: 485px;
+    position: fixed;
+}
+#r22Window2{
+   background-color: black;
+    height: 0.8px;
+    width: 100px;
+    margin-top: 343px;
+    margin-left: 435.7px;
+    position: fixed;
+}
+    
+#rDoor{
+     background-color:grey;
+    margin-top: 400px;
+    margin-left: 360px;
+   width: 57px;
+    height: 105px;
+    position: fixed;
+} 
+
+#squareDoor{
+    background-color: rgb(28, 128, 128);
+    margin-top: 409px;
+    margin-left: 368.4px;
+    width: 40px;
+    height: 33px; 
+    position: fixed;
+}
+#circleKey{
+      height: 5.5px;
+  width: 5.5px;
+  background-color: red;
+  border-radius: 50%;
+ margin-left:362px;
+ margin-top: 453px;
+position: fixed;
+}
+
+#circleTree1{
+  height: 123px;
+  width: 123px;
+  background-color: #162f2a;
+  border-radius: 50%;
+  margin-top: 278px;
+  margin-left: 14px;
+  position: fixed;
+}
+#rectangleTree1{
+      background-image:linear-gradient( #786079,#2b2a37);
+    margin-top: 365px;
+    margin-left: 68px;
+    width: 12px;
+    height: 139px;
+    position: fixed;
+}
+#circleTree2{
+  height: 128px;
+  width: 42px;
+  background-color:#132829;
+  border-radius: 57%;
+  margin-left: 670px;
+  margin-top: 335px;
+  position: fixed;
+ }
+#rectangleTree2{
+    background-image:linear-gradient( #786079,#2b2a37);
+    margin-top: 458px;
+    margin-left: 685px;
+    width: 11.5px;
+    height: 47px;
+  position: fixed;
+}
+
+input{
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+    
+}
+
+#custom {
+  height: 22px;
+  width: 22px;
+  background-color: white;
+  border-radius: 8px;
+  border: 1px solid green;
+}
+
+#custom:checked {
+  background-color: green;
+  outline: none;
+  -webkit-tap-highlight-color: transparent;
+  border: none;
+}
+#custom:checked:before {
+  content: "";
+  display: block;
+  position: relative;
+  top: 5px;
+  left: 9px;
+  width: 4px;
+  height: 9px;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  border-color: white;
+  transform: rotate(45deg);
+}
+
+#main{
+    display:none;
+  
+}
+#fixed{
+    position: fixed;
+}
+label{
+    color: black;
+}
